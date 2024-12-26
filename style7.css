@@ -1,0 +1,59 @@
+body {
+    width: 1000px;
+    background-color: bisque;
+    margin: 0px auto;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.p_One {
+    text-align: center;
+    font-size: 22px;
+}
+
+.p_Two {
+    text-align: left;
+    font-size: 20px;
+}
+
+.two {
+    margin: 70px auto;
+    border-radius: 2%;
+    width: 95%;
+}
+
+.end {
+    margin-bottom: 300px;
+}
+
+
+@media (max-width: 800px){
+    body {
+        width: 95%;
+        background-color: orange;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .p_One {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .p_Two {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .two {
+        width: 90%;
+    }
+}
